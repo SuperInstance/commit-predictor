@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 commit_predictor/__init__.py
