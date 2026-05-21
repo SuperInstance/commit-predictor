@@ -23,6 +23,9 @@ class CommitPredictor:
         self.b_crossref = np.zeros(1, dtype=np.float32)
         self.losses: List[float] = []
 
+    def __repr__(self) -> str:
+        return f"CommitPredictor(input={self.input_dim}, hidden={self.hidden_dim}, lr={self.lr})"
+
     @staticmethod
     def sigmoid(x):
         return 1.0 / (1.0 + np.exp(-np.clip(x, -500, 500)))
