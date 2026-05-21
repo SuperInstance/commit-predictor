@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commit-predictor"
+version = "0.1.0"
+description = "Commit pattern predictor — small dense network for fleet git activity forecasting"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "SuperInstance"}]
+keywords = ["commit", "prediction", "git", "neural-network", "numpy"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Version Control",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["commit_predictor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

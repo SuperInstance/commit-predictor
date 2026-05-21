@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: commit-predictor
+Version: 0.1.0
+Summary: Commit pattern predictor — small dense network for fleet git activity forecasting
+Author: SuperInstance
+License-Expression: MIT
+Keywords: commit,prediction,git,neural-network,numpy
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Version Control
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
