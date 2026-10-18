@@ -1,1 +1,14 @@
-{"name": "@superinstance/commit-predictor", "version": "0.1.0", "description": "Commit pattern predictor — small dense network for fleet git activity forecasting", "license": "MIT"}
+{
+  "name": "@superinstance/commit-predictor",
+  "version": "0.1.2",
+  "description": "Commit pattern predictor \u2014 small dense network for fleet git activity forecasting",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperInstance/commit-predictor.git"
+  },
+  "homepage": "https://github.com/SuperInstance/commit-predictor#readme",
+  "bugs": {
+    "url": "https://github.com/SuperInstance/commit-predictor/issues"
+  }
+}
