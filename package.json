@@ -1,6 +1,6 @@
 {
   "name": "@superinstance/commit-predictor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Commit pattern predictor \u2014 small dense network for fleet git activity forecasting",
   "license": "MIT",
   "repository": {
